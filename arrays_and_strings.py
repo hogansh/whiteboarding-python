@@ -4,7 +4,7 @@ def is_unique(string):
     unique = {}
     for character in string:
         if unique.get(character):
-            return false
+            return False
         unique[character] = 1
     return True
 
